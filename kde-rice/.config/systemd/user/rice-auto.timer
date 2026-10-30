@@ -1,0 +1,9 @@
+[Unit]
+Description=rice: check day/night every 15 minutes
+
+[Timer]
+OnStartupSec=1min
+OnUnitActiveSec=15min
+
+[Install]
+WantedBy=timers.target
